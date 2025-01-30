@@ -1,0 +1,500 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+
+  <!-- cdn tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            "grotesk": ['Space Grotesk', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <!-- flowbite cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+ <!-- ================== nav =========================-->
+ <div class="p-6 py-12 dark:bg-[var(--primary-color)] dark:text-gray-50">
+	<div class="container mx-auto">
+		<div class="flex flex-col lg:flex-row items-center justify-between">
+			<h2 class="text-center text-6xl tracking-tighter font-bold">CHELLY
+				<br class="sm:hidden">AILONA
+			</h2>
+			<div class="space-x-2 text-center py-2 lg:py-0">
+				<span>Virtual Youtuber</span>
+				<span class="font-bold text-lg">VTUBER</span>
+			</div>
+			<a href="#" rel="noreferrer noopener" class="px-5 mt-4 lg:mt-0 py-3 rounded-md border block dark:bg-gray-900 dark:text-gray-50 dark:border-gray-600">Check it</a>
+		</div>
+	</div>
+</div>
+<header class="p-4 dark:bg-gray-100 dark:text-gray-800">
+	<div class="container flex justify-between h-16 mx-auto">
+		<ul class="items-stretch hidden space-x-3 lg:flex">
+			<li class="flex">
+				<a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Link</a>
+			</li>
+			<li class="flex">
+				<a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
+			</li>
+			<li class="flex">
+				<a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
+			</li>
+		</ul>
+		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-8 h-8 dark:text-violet-600">
+				<path d="M27.912 7.289l-10.324-5.961c-0.455-0.268-1.002-0.425-1.588-0.425s-1.133 0.158-1.604 0.433l0.015-0.008-10.324 5.961c-0.955 0.561-1.586 1.582-1.588 2.75v11.922c0.002 1.168 0.635 2.189 1.574 2.742l0.016 0.008 10.322 5.961c0.455 0.267 1.004 0.425 1.59 0.425 0.584 0 1.131-0.158 1.602-0.433l-0.014 0.008 10.322-5.961c0.955-0.561 1.586-1.582 1.588-2.75v-11.922c-0.002-1.168-0.633-2.189-1.573-2.742zM27.383 21.961c0 0.389-0.211 0.73-0.526 0.914l-0.004 0.002-10.324 5.961c-0.152 0.088-0.334 0.142-0.53 0.142s-0.377-0.053-0.535-0.145l0.005 0.002-10.324-5.961c-0.319-0.186-0.529-0.527-0.529-0.916v-11.922c0-0.389 0.211-0.73 0.526-0.914l0.004-0.002 10.324-5.961c0.152-0.090 0.334-0.143 0.53-0.143s0.377 0.053 0.535 0.144l-0.006-0.002 10.324 5.961c0.319 0.185 0.529 0.527 0.529 0.916z"></path>
+				<path d="M22.094 19.451h-0.758c-0.188 0-0.363 0.049-0.515 0.135l0.006-0.004-4.574 2.512-5.282-3.049v-6.082l5.282-3.051 4.576 2.504c0.146 0.082 0.323 0.131 0.508 0.131h0.758c0.293 0 0.529-0.239 0.529-0.531v-0.716c0-0.2-0.11-0.373-0.271-0.463l-0.004-0.002-5.078-2.777c-0.293-0.164-0.645-0.26-1.015-0.26-0.39 0-0.756 0.106-1.070 0.289l0.010-0.006-5.281 3.049c-0.636 0.375-1.056 1.055-1.059 1.834v6.082c0 0.779 0.422 1.461 1.049 1.828l0.009 0.006 5.281 3.049c0.305 0.178 0.67 0.284 1.061 0.284 0.373 0 0.723-0.098 1.027-0.265l-0.012 0.006 5.080-2.787c0.166-0.091 0.276-0.265 0.276-0.465v-0.716c0-0.293-0.238-0.529-0.529-0.529z"></path>
+			</svg>
+		</a>
+		<div class="flex items-center md:space-x-4">
+			<div class="relative">
+				<span class="absolute inset-y-0 left-0 flex items-center pl-2">
+					<button type="submit" title="Search" class="p-1 focus:outline-none focus:ring">
+						<svg fill="currentColor" viewBox="0 0 512 512" class="w-4 h-4 dark:text-gray-800">
+							<path d="M479.6,399.716l-81.084-81.084-62.368-25.767A175.014,175.014,0,0,0,368,192c0-97.047-78.953-176-176-176S16,94.953,16,192,94.953,368,192,368a175.034,175.034,0,0,0,101.619-32.377l25.7,62.2L400.4,478.911a56,56,0,1,0,79.2-79.195ZM48,192c0-79.4,64.6-144,144-144s144,64.6,144,144S271.4,336,192,336,48,271.4,48,192ZM456.971,456.284a24.028,24.028,0,0,1-33.942,0l-76.572-76.572-23.894-57.835L380.4,345.771l76.573,76.572A24.028,24.028,0,0,1,456.971,456.284Z"></path>
+						</svg>
+					</button>
+				</span>
+				<input type="search" name="Search" placeholder="Search..." class="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none dark:bg-gray-100 dark:text-gray-800 focus:dark:bg-gray-50">
+			</div>
+			<button type="button" class="hidden px-6 py-2 font-semibold rounded lg:block dark:bg-violet-600 dark:text-gray-50">Log in</button>
+		</div>
+		<button title="Open menu" type="button" class="p-4 lg:hidden">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-gray-800">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+			</svg>
+		</button>
+	</div>
+</header>
+<!-- =========================nav end =========================-->
+
+<!-- Hero 1 section -->
+<section class="dark:bg-gray-100 dark:text-gray-800">
+	<div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+		<div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+			<img src="assets/img/siput.gif" alt="" class="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+		</div>
+		<div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+			<h1 class="text-5xl font-bold leading-none sm:text-6xl">Ac mattis
+				<span class="dark:text-violet-600">senectus</span>erat pharetra
+			</h1>
+			<p class="mt-6 mb-8 text-lg sm:mb-12">Dictum aliquam porta in condimentum ac integer
+				<br class="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem
+			</p>
+			<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+				<a rel="noopener noreferrer" href="#" class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-600 dark:text-gray-50">Suspendisse</a>
+				<a rel="noopener noreferrer" href="#" class="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-800">Malesuada</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Hero 1 section end -->
+
+<!-- Section 2 (About) -->
+<div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+  <div class="absolute inset-0 -z-10 overflow-hidden">
+    <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
+      <defs>
+        <pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
+          <path d="M100 200V.5M.5 .5H200" fill="none" />
+        </pattern>
+      </defs>
+      <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+        <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" stroke-width="0" />
+      </svg>
+      <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+    </svg>
+  </div>
+  <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+    <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+      <div class="lg:pr-4">
+        <div class="lg:max-w-lg">
+          <p class="text-base/7 font-semibold text-indigo-600">Deploy faster</p>
+          <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">A better workflow</h1>
+          <p class="mt-6 text-xl/8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+      <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="assets/img/model.jpg" alt="">
+    </div>
+    <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+      <div class="lg:pr-4">
+        <div class="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
+          <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
+          <ul role="list" class="mt-8 space-y-8 text-gray-600">
+            <li class="flex gap-x-3">
+              <svg class="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z" clip-rule="evenodd" />
+              </svg>
+              <span><strong class="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</span>
+            </li>
+            <li class="flex gap-x-3">
+              <svg class="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z" clip-rule="evenodd" />
+              </svg>
+              <span><strong class="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span>
+            </li>
+            <li class="flex gap-x-3">
+              <svg class="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <path d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z" />
+                <path fill-rule="evenodd" d="M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z" clip-rule="evenodd" />
+              </svg>
+              <span><strong class="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span>
+            </li>
+          </ul>
+          <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
+          <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+          <p class="mt-6">Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="p-5 mx-auto sm:p-10 md:p-16 dark:bg-gray-100 dark:text-gray-800">
+	<div class="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
+		<img src="assets/img/detail.png" alt="" class="w-full h-60 sm:h-96 dark:bg-gray-500">
+		<div class="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md dark:bg-gray-50">
+			<div class="space-y-2">
+				<a rel="noopener noreferrer" href="#" class="inline-block text-2xl font-semibold sm:text-3xl">The Best Activewear from the Nordstrom Anniversary Sale</a>
+				<p class="text-xs dark:text-gray-600">By
+					<a rel="noopener noreferrer" href="#" class="text-xs hover:underline">Leroy Jenkins</a>
+				</p>
+			</div>
+			<div class="dark:text-gray-800">
+				<p>Insert the actual text content here...</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Section 2 (About) end -->
+
+<!-- Section 3 (skills) -->
+<section class="py-6 sm:py-12 dark:bg-gray-100 dark:text-gray-800">
+	<div class="container p-6 mx-auto space-y-8">
+		<div class="space-y-2 text-center">
+			<h2 class="text-3xl font-bold">Partem reprimique an pro</h2>
+			<p class="font-serif text-sm dark:text-gray-600">Qualisque erroribus usu at, duo te agam soluta mucius.</p>
+		</div>
+		<div class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+			<article class="flex flex-col dark:bg-gray-50">
+				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+					<img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="assets/img/chelly_1.png">
+				</a>
+				<div class="flex flex-col flex-1 p-6">
+					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+					<a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+					<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+					<div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+						<span>June 1, 2020</span>
+						<span>2.1K views</span>
+					</div>
+				</div>
+			</article>
+			<article class="flex flex-col dark:bg-gray-50">
+				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+					<img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="assets/img/chibi2.png">
+				</a>
+				<div class="flex flex-col flex-1 p-6">
+					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+					<a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+					<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+					<div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+						<span>June 2, 2020</span>
+						<span>2.2K views</span>
+					</div>
+				</div>
+			</article>
+			<article class="flex flex-col dark:bg-gray-50">
+				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+					<img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="assets/img/aaaa.jpg">
+				</a>
+				<div class="flex flex-col flex-1 p-6">
+					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+					<a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+					<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+					<div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+						<span>June 3, 2020</span>
+						<span>2.3K views</span>
+					</div>
+				</div>
+			</article>
+			<article class="flex flex-col dark:bg-gray-50">
+				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+					<img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="assets/img/doodle.PNG">
+				</a>
+				<div class="flex flex-col flex-1 p-6">
+					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+					<a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+					<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+					<div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+						<span>June 4, 2020</span>
+						<span>2.4K views</span>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+<!-- Section 3 (skills end) -->
+
+<!-- Section 4 (Projects) -->
+<div class="max-w-2xl px-6 py-16 mx-auto space-y-12">
+	<article class="space-y-8 dark:bg-gray-100 dark:text-gray-900">
+		<div class="space-y-6">
+			<h1 class="text-4xl font-bold md:tracking-tight md:text-5xl">Suspendisse ut magna et ipsum sodales accumsan.</h1>
+			<div class="flex flex-col items-start justify-between w-full md:flex-row md:items-center dark:text-gray-600">
+				<div class="flex items-center md:space-x-2">
+					<img src="assets/img/lucu.png" alt="" class="w-4 h-4 border rounded-full dark:bg-gray-500 dark:border-gray-300">
+					<p class="text-sm">Leroy Jenkins • July 19th, 2021</p>
+				</div>
+				<p class="flex-shrink-0 mt-3 text-sm md:mt-0">4 min read • 1,570 views</p>
+			</div>
+		</div>
+		<div class="dark:text-gray-800">
+			<p>Insert the actual text content here...</p>
+		</div>
+	</article>
+	<div>
+		<div class="flex flex-wrap py-6 gap-2 border-t border-dashed dark:border-gray-600">
+			<a rel="noopener noreferrer" href="#" class="px-3 py-1 rounded-sm hover:underline dark:bg-violet-600 dark:text-gray-50">#MambaUI</a>
+			<a rel="noopener noreferrer" href="#" class="px-3 py-1 rounded-sm hover:underline dark:bg-violet-600 dark:text-gray-50">#TailwindCSS</a>
+			<a rel="noopener noreferrer" href="#" class="px-3 py-1 rounded-sm hover:underline dark:bg-violet-600 dark:text-gray-50">#Angular</a>
+		</div>
+		<div class="space-y-2">
+			<h4 class="text-lg font-semibold">Related posts</h4>
+			<ul class="ml-4 space-y-1 list-disc">
+				<li>
+					<a rel="noopener noreferrer" href="#" class="hover:underline">Nunc id magna mollis</a>
+				</li>
+				<li>
+					<a rel="noopener noreferrer" href="#" class="hover:underline">Duis molestie, neque eget pretium lobortis</a>
+				</li>
+				<li>
+					<a rel="noopener noreferrer" href="#" class="hover:underline">Mauris nec urna volutpat, aliquam lectus sit amet</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- Section 4 (Projects end) -->
+
+<!-- Footer -->
+<footer id="contacts" class="bg-gray-100 mt-32">
+  <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="flex justify-center text-teal-600">
+      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <p class="font-bold text-[var(--primary-color)] text-xl">Salsabila Ramadhani</p>
+      </a>
+    </div>
+
+    <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
+      Let's share experiences, stories, and knowledge together.
+    </p>
+
+    <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+      <li>
+        <a href="#about"
+        class="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
+      </li>
+
+      <li>
+        <a href="#skills"
+        class="text-gray-700 transition hover:text-gray-700/75" href="#"> Skills </a>
+      </li>
+
+      <li>
+        <a href="#projects"
+        class="text-gray-700 transition hover:text-gray-700/75" href="#"> Projects </a>
+      </li>
+
+      <li>
+        <a href="#contacs"
+        class="text-gray-700 transition hover:text-gray-700/75" href="#"> Contacts </a>
+      </li>
+    </ul>
+
+    <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+      <!--
+      <li>
+        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+          <span class="sr-only">Facebook</span>
+          <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </li>
+      -->
+
+      <li>
+        <a href="https://www.instagram.com/smnsals?igsh=MTZrc3c5ZW5xZWV4" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+          <span class="sr-only">Instagram</span>
+          <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </li>
+
+      <!--
+      <li>
+        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+          <span class="sr-only">Twitter</span>
+          <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+          </svg>
+        </a>
+      </li>
+      -->
+
+      <li>
+        <a href="https://github.com/SalsabilaRamadhani" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+          <span class="sr-only">GitHub</span>
+          <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </li>
+
+      <!--
+      <li>
+        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+          <span class="sr-only">Dribbble</span>
+          <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </li> -->
+    </ul>
+  </div>
+<section class="py-6 dark:bg-gray-100 dark:text-gray-900">
+	<div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+		<div class="py-6 md:py-0 md:px-6">
+			<h1 class="text-4xl font-bold">Get in touch</h1>
+			<p class="pt-2 pb-4">Fill in the form to start a conversation</p>
+			<div class="space-y-4">
+				<p class="flex items-center gap-2">
+          <a href="https://www.instagram.com/smnsals?igsh=MTZrc3c5ZW5xZWV4" rel="noreferrer" target="_blank" class="flex items-center text-gray-700 transition hover:text-gray-700/75">
+            <!-- Logo Instagram -->
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                clip-rule="evenodd" />
+            </svg>
+            <!-- Teks Instagram -->
+            <span>@smnsals</span>
+          </a>
+        </p>
+        
+				<p class="flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+						<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+					</svg>
+					<span>123456789</span>
+				</p>
+				<p class="flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+						<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+						<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+					</svg>
+					<span>contact@business.com</span>
+				</p>
+			</div>
+		</div>
+		<form novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+			<label class="block">
+				<span class="mb-1">Full name</span>
+				<input type="text" placeholder="Leroy Jenkins" class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100">
+			</label>
+			<label class="block">
+				<span class="mb-1">Email address</span>
+				<input type="email" placeholder="leroy@jenkins.com" class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100">
+			</label>
+			<label class="block">
+				<span class="mb-1">Message</span>
+				<textarea rows="3" class="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"></textarea>
+			</label>
+			<button type="button" class="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600">Submit</button>
+		</form>
+	</div>
+</section>
+</footer>
+<!--Footer end -->
+
+
+</body>
+  <!-- scripts -->
+  <script src="/scripts/tab-pricing.js"></script>
+  <script src="scripts/marquee.js"></script>
+
+  <!-- scripts flowbite -->
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+  <!-- other scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Ambil semua elemen <a> di dalam navigasi
+      const navLinks = document.querySelectorAll('nav a');
+  
+      // Fungsi untuk memperbarui gaya tautan
+      const updateActiveLink = () => {
+        const currentHash = window.location.hash || '#'; // Default ke # jika tidak ada hash
+        navLinks.forEach(link => {
+          if (link.getAttribute('href') === currentHash) {
+            // Tambahkan gaya untuk link aktif
+            link.classList.add('!text-[var(--primary-color)]');
+          } else {
+            // Hapus gaya dari link yang tidak aktif
+            link.classList.remove('!text-[var(--primary-color)]');
+          }
+        });
+      };
+  
+      // Jalankan saat halaman dimuat
+      updateActiveLink();
+  
+      // Perbarui gaya saat hash berubah
+      window.addEventListener('hashchange', updateActiveLink);
+    });
+  
+      </script>
+
+</html>
